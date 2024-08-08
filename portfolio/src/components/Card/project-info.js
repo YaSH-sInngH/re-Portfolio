@@ -6,16 +6,16 @@ const projects = [
         codeLink:'https://github.com/YaSH-sInngH/Portfolio'
     },
     {
-        img:'./quizzers.jpeg',
-        projectName:'QuizMaker',
-        projectLink:'https://quiz-webgame-0000.onrender.com/',
-        codeLink:'https://github.com/YaSH-sInngH/quiz-generator-game'
-    },
-    {
         img:'./INDIEJournals.png',
         projectName:'IndieJournals',
         projectLink:'https://github.com/YaSH-sInngH/INDIEJournals-myProject',
         codeLink:'https://github.com/YaSH-sInngH/INDIEJournals-myProject'
+    },
+    {
+        img:'./quizzers.jpeg',
+        projectName:'QuizMaker',
+        projectLink:'https://quiz-webgame-0000.onrender.com/',
+        codeLink:'https://github.com/YaSH-sInngH/quiz-generator-game'
     },
     {
         img:'tic-tac-game.jpeg',
