@@ -29,6 +29,16 @@ export default {
       },
     }
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.gradient-border': {
+          'border-width': '8px',
+          'border-style': 'solid',
+          'border-image': ' radial-gradient(401px at 50.6% -0.3%, rgba(255, 255, 255, 0.31) 1.2%, rgb(36, 212, 219) 100.2%) 1',
+        },
+      });
+    },
+  ],
 }
 

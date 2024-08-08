@@ -1,45 +1,45 @@
 const projects = [
     {
-        img:'./nodejs.svg',
-        projectName:'IndieJournals',
-        projectLink:'',
-        codeLink:''
-    },
-    {
-        img:'./nodejs.svg',
-        projectName:'QuizMaker',
-        projectLink:'',
-        codeLink:''
-    },
-    {
-        img:'./nodejs.svg',
-        projectName:'Tic-Tac-Toe',
-        projectLink:'',
-        codeLink:''
-    },
-    {
-        img:'./nodejs.svg',
+        img:'./oldportfolio1.png',
         projectName:'Old-Portfolio',
-        projectLink:'',
-        codeLink:''
+        projectLink:'https://yash-singh-portfolio.netlify.app/',
+        codeLink:'https://github.com/YaSH-sInngH/Portfolio'
     },
     {
-        img:'./nodejs.svg',
+        img:'./quizzers.jpeg',
+        projectName:'QuizMaker',
+        projectLink:'https://quiz-webgame-0000.onrender.com/',
+        codeLink:'https://github.com/YaSH-sInngH/quiz-generator-game'
+    },
+    {
+        img:'./INDIEJournals.png',
+        projectName:'IndieJournals',
+        projectLink:'https://github.com/YaSH-sInngH/INDIEJournals-myProject',
+        codeLink:'https://github.com/YaSH-sInngH/INDIEJournals-myProject'
+    },
+    {
+        img:'tic-tac-game.jpeg',
+        projectName:'Tic-Tac-Toe',
+        projectLink:'https://tic-tac-toe-game-in.netlify.app/',
+        codeLink:'https://github.com/YaSH-sInngH/Tic-Tac-Toe'
+    },
+    {
+        img:'./todoapp.png',
         projectName:'Todo-List',
-        projectLink:'',
-        codeLink:''
+        projectLink:'https://todo-list-addyourtodo.netlify.app/',
+        codeLink:'https://github.com/YaSH-sInngH/Todo-List-App'
     },
     {
-        img:'./nodejs.svg',
+        img:'./scientific-calc.png',
         projectName:'Scientific Calculator',
-        projectLink:'',
-        codeLink:''
+        projectLink:'https://scientific-calculator-mint.netlify.app/',
+        codeLink:'https://github.com/YaSH-sInngH/scientific-calculator'
     },
     {
-        img:'./nodejs.svg',
+        img:'./jobboarding.jpeg',
         projectName:'Job Boarding Frontend',
-        projectLink:'',
-        codeLink:''
+        projectLink:'https://job-boarding.onrender.com/',
+        codeLink:'https://github.com/YaSH-sInngH/job-boarding'
     }
 ]
 

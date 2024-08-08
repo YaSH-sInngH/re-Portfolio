@@ -16,7 +16,8 @@ function Projects() {
                 key={index}
                 img={project.img}
                 projectName={project.projectName}
-                projectAbout={project.projectAbout}
+                projectLink={project.projectLink}
+                codeLink={project.codeLink}
               />
             );
           })}
