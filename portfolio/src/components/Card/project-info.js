@@ -19,22 +19,28 @@ const projects = [
     },
     {
         img:'./nodejs.svg',
-        projectName:'',
+        projectName:'Old-Portfolio',
         projectLink:'',
         codeLink:''
     },
     {
         img:'./nodejs.svg',
-        projectName:'Tic-Tac-Toe',
+        projectName:'Todo-List',
         projectLink:'',
         codeLink:''
     },
     {
         img:'./nodejs.svg',
-        projectName:'Tic-Tac-Toe',
+        projectName:'Scientific Calculator',
         projectLink:'',
         codeLink:''
     },
+    {
+        img:'./nodejs.svg',
+        projectName:'Job Boarding Frontend',
+        projectLink:'',
+        codeLink:''
+    }
 ]
 
 export default projects;
