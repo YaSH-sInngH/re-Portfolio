@@ -4,8 +4,8 @@ function About() {
   return (
     <>
         <div className='m-12'>
-            <p className='my-10 p-2 font-thin'>I am a Developer, a tech enthusiast, who loves to spend time on coding and creating stuffs. I try to put visualized things, into a coding structure to make it a reality. Created few projects from the skills i gather in my coding, and developing journey to showcase how much productive and efficient i am in my coding. </p>
-            <p className='my-10 p-2 font-thin'>In my journey of coding and builting websites and projects, I used a hell lot of tech stack, but that's not the end, I intend on learning more and more tech-stack for future projects. Everyone one has a mantra or motto to look forward to, and mine is <i>"All we have is learning, we can learn from everywhere within time, so don't worry and keep moving forward."</i></p>
+            <p className='my-10 p-2 font-thin text-lg'>I am a Developer, a tech enthusiast, who loves to spend time on coding and creating stuffs. I try to put visualized things, into a coding structure to make it a reality. Created few projects from the skills i gather in my coding, and developing journey to showcase how much productive and efficient i am in my coding. </p>
+            <p className='my-10 p-2 font-thin text-lg'>In my journey of coding and builting websites and projects, I used a hell lot of tech stack, but that's not the end, I intend on learning more and more tech-stack for future projects. Everyone one has a mantra or motto to look forward to, and mine is <i>"All we have is learning, we can learn from everywhere within time, so don't worry and keep moving forward."</i></p>
             <div className='m-2 font-Coiny'>
                 <h1>Technologies, Tools and Frameworks that I use! & <i>"Click on the logo, to know where I learn all that from!</i></h1>
                 <div className="grid grid-cols-3 gap-4 border-white p-4">
@@ -242,6 +242,8 @@ function About() {
                     </div>
                 </div>
             </div>
+            <p className='my-1 p-2 font-semibold'>Check out my <a href='/projects' className='font-bold'><i>projects&#8599;</i></a>, where i have put all my learnings into real world web applications and projects. </p>
+            
         </div>
     </>
   )

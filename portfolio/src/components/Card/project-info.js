@@ -1,0 +1,40 @@
+const projects = [
+    {
+        img:'./nodejs.svg',
+        projectName:'IndieJournals',
+        projectLink:'',
+        codeLink:''
+    },
+    {
+        img:'./nodejs.svg',
+        projectName:'QuizMaker',
+        projectLink:'',
+        codeLink:''
+    },
+    {
+        img:'./nodejs.svg',
+        projectName:'Tic-Tac-Toe',
+        projectLink:'',
+        codeLink:''
+    },
+    {
+        img:'./nodejs.svg',
+        projectName:'',
+        projectLink:'',
+        codeLink:''
+    },
+    {
+        img:'./nodejs.svg',
+        projectName:'Tic-Tac-Toe',
+        projectLink:'',
+        codeLink:''
+    },
+    {
+        img:'./nodejs.svg',
+        projectName:'Tic-Tac-Toe',
+        projectLink:'',
+        codeLink:''
+    },
+]
+
+export default projects;

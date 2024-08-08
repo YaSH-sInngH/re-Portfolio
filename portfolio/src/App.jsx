@@ -14,6 +14,8 @@ export class App extends Component {
           <Navbar />
           <hr className="mt-2 border-t-2 border-neutral-300" />
           <Outlet />
+          <hr className="mt-2 border-t-1 border-neutral-300" />
+          <Footer/>
         </div>
       </div>
       </>

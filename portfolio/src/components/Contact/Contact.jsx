@@ -2,7 +2,9 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div>Contactisthekey</div>
+    <div>
+      Contact
+    </div>
   )
 }
 
