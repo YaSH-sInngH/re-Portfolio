@@ -1,12 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { NavLink } from 'react-router-dom'
 
 function Navbar() {
+  const [isMenuOpen, setisMenuOpen] = useState(false);
+
   return (
     <>
       <div className="mt-8 mx-2">
-        <nav className="flex flex-row items-start relative px-0 pb-0 fade md:overflow-auto scroll-pr-6 md:relative" id="nav">
-          <ul className="flex flex-row items-start">
+        <nav className="flex flex-row relative">
+
+
+          {/*Desktop Menu*/}
+          <ul className="flex flex-row">
             <li className="transition-all hover:text-neutral-300 align-middle relative py-2 px-4">
               <NavLink to='/'>
                 Home

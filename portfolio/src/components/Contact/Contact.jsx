@@ -4,8 +4,8 @@ function Contact() {
   return (
     <>
       <div className='m-10'>
-        <h1 className='text-center text-white text-3xl m-5 p-2'>Get in Touch</h1>
-        <p className='p-2 m-5 text-center font-semibold'>Hey, If you have any query, regarding anything please feel free to contact me.</p>
+        <h1 className='text-center text-white text-3xl m-5 p-2 underline'>Get in Touch</h1>
+        <p className='p-2 m-5 text-center font-semibold text-lg'>Hey, If you have any query, regarding anything please feel free to contact me.</p>
         <form action="https://formspree.io/f/mvgprkqo" method='POST' className='flex flex-col justify-center items-center'>
           <input 
             type="text" 
@@ -31,26 +31,23 @@ function Contact() {
           <div className='flex flex-col justify-center items-center p-5'>
             <h1 className='m-5 underline text-white text-xl'>I'm Social too, You can Connect with me there!</h1>
             <div className='grid grid-cols-2 gap-4'>
-              <a href="" className='flex items-center hover:underline'>
+              <a href="https://www.linkedin.com/in/yash-sinngh/" className='flex items-center hover:underline' target='_blank'>
                 <img src="./linkedin2.svg" alt="LinkedIn" className='w-10 h-10 invert' />
                 <span className='ml-2'>LinkedIn</span>
               </a>
-              <a href="" className='flex items-center hover:underline'>
-                <img src="./icons8-twitter.svg" alt="twitter" className='w-10 h-10 invert' />
-                <span className='ml-2'>Twitter</span>
-              </a>
-              <a href="" className='flex items-center hover:underline'>
-                <img src="./icons8-instagram.svg" alt="Instagram" className='w-10 h-10 invert' />
-                <span className='ml-2'>Instagram</span>
-              </a>
-              <a href="" className='flex items-center hover:underline'>
-                <img src="./leetcode.svg" alt="Leetcode" className='w-10 h-10 invert' />
-                <span className='ml-2'>LeetCode</span>
-              </a>
-              <a href="" className='flex items-center hover:underline'>
+              <a href="https://github.com/YaSH-sInngH" className='flex items-center hover:underline' target='_blank'>
                 <img src="./github.svg" alt="Github" className='w-8 h-8 invert' />
                 <span className='ml-2'>Github</span>
               </a>
+              <a href="https://www.instagram.com/singh_yash_0026/" className='flex items-center hover:underline' target='_blank'>
+                <img src="./icons8-instagram.svg" alt="Instagram" className='w-10 h-10 invert' />
+                <span className='ml-2'>Instagram</span>
+              </a>
+              <a href="https://leetcode.com/u/_yashSingh_/" className='flex items-center hover:underline' target='_blank'>
+                <img src="./leetcode.svg" alt="Leetcode" className='w-10 h-10 invert' />
+                <span className='ml-2'>LeetCode</span>
+              </a>
+              
             </div>
           </div>
         </div>

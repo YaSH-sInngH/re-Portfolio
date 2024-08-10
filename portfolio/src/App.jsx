@@ -9,7 +9,7 @@ export class App extends Component {
   render() {
     return (
       <>
-        <div className="bg-b2 min-h-screen w-3/4 max-w-screen-lg mx-auto p-6 font-DM text-white font-bold">
+        <div className="bg-b2 min-h-screen w-full max-w-screen-lg mx-auto p-4 md:p-6 font-DM text-white font-bold md:w-3/4">
         <div className="container mx-auto my-2 mt-4 rounded-xl">
           <Navbar />
           <hr className="mt-2 border-t-2 border-neutral-300" />

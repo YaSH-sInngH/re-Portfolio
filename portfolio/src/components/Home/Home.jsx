@@ -4,7 +4,7 @@ import About from '../About/About'
 function Home() {
   return (
     <>
-        <section>
+        <section className='m-10'>
             <p className='mx-3 mt-10 p-10 text-center text-5xl'>
                 Hi I am Yash 👋
             </p>
@@ -88,6 +88,9 @@ function Home() {
                 </a>
                 .
             </p>
+            <div className='w-full h-80 border-2 my-10'>
+                <img src="pexel1.jpg" alt="" className='object-cover w-full h-full'/>
+            </div>
         </section>
     </>
   )
