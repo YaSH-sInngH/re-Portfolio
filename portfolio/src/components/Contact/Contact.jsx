@@ -13,7 +13,7 @@ function Contact() {
             placeholder='Name'
             autoComplete='off'
             required  
-            className='w-96 m-2 p-4 rounded-lg outline-none bg-black'
+            className='md:w-96 w-80 m-2 p-4 rounded-lg outline-none bg-black'
           />
           <input 
             type="email" 
@@ -21,18 +21,18 @@ function Contact() {
             placeholder='E-mail'
             autoComplete='off'
             required  
-            className='w-96 m-2 p-4 rounded-lg outline-none bg-black'
+            className='md:w-96 w-80 m-2 p-4 rounded-lg outline-none bg-black'
           />
-          <textarea name="message" placeholder='Message' cols={30} rows={5} autoComplete='off' required className='w-96 m-3 p-4 rounded-lg outline-none bg-black'></textarea>
-          <input type="submit" value='Send' className='w-36 rounded-xl bg-white text-black m-4 p-2 hover:bg-slate-300 cursor-pointer' />
+          <textarea name="message" placeholder='Message' cols={30} rows={5} autoComplete='off' required className='md:w-96 w-80 m-3 p-4 rounded-lg outline-none bg-black'></textarea>
+          <input type="submit" value='Send' className='md:w-36 w-52 rounded-xl bg-white text-black m-4 p-2 hover:bg-slate-300 cursor-pointer' />
         </form>
-        <div className='w-full bg-neutral-900 grid grid-cols-2 my-5'>
+        <div className='w-full bg-neutral-900 grid md:grid-cols-2 grid-cols-1 my-5'>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224357.50123809598!2d77.23701382068626!3d28.522102350413363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5a43173357b%3A0x37ffce30c87cc03f!2sNoida%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1723135193540!5m2!1sen!2sin" width="600" height="450" style={{border:0}} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='w-full h-80 p-4'></iframe>
           <div className='flex flex-col justify-center items-center p-5'>
-            <h1 className='m-5 underline text-white text-xl'>I'm Social too, You can Connect with me there!</h1>
+            <h1 className='m-5 underline text-white md:text-xl text-lg text-center'>I'm Social too, You can Connect with me there!</h1>
             <div className='grid grid-cols-2 gap-4'>
               <a href="https://www.linkedin.com/in/yash-sinngh/" className='flex items-center hover:underline' target='_blank'>
-                <img src="./linkedin2.svg" alt="LinkedIn" className='w-10 h-10 invert' />
+                <img src="./linkedin2.svg" alt="LinkedIn" className='md:w-10 w-8 md:h-10 h-8 invert' />
                 <span className='ml-2'>LinkedIn</span>
               </a>
               <a href="https://github.com/YaSH-sInngH" className='flex items-center hover:underline' target='_blank'>
@@ -40,11 +40,11 @@ function Contact() {
                 <span className='ml-2'>Github</span>
               </a>
               <a href="https://www.instagram.com/singh_yash_0026/" className='flex items-center hover:underline' target='_blank'>
-                <img src="./icons8-instagram.svg" alt="Instagram" className='w-10 h-10 invert' />
+                <img src="./icons8-instagram.svg" alt="Instagram" className='md:w-10 w-8 md:h-10 h-8 invert' />
                 <span className='ml-2'>Instagram</span>
               </a>
               <a href="https://leetcode.com/u/_yashSingh_/" className='flex items-center hover:underline' target='_blank'>
-                <img src="./leetcode.svg" alt="Leetcode" className='w-10 h-10 invert' />
+                <img src="./leetcode.svg" alt="Leetcode" className='md:w-10 w-8 md:h-10 h-8 invert' />
                 <span className='ml-2'>LeetCode</span>
               </a>
               

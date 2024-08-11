@@ -4,11 +4,11 @@ import About from '../About/About'
 function Home() {
   return (
     <>
-        <section className='m-10'>
-            <p className='mx-3 mt-10 p-10 text-center text-5xl'>
+        <section className='m-1 md:m-10'>
+            <p className='mx-3 mt-10 p-10 text-center md:text-5xl text-3xl'>
                 Hi I am Yash 👋
             </p>
-            <p className='text-center text-2xl font-semibold'>
+            <p className='text-center md:text-2xl text-sm font-semibold'>
                 I am a Developer, skilled in 
                 <a 
                 href="https://react.dev" 
