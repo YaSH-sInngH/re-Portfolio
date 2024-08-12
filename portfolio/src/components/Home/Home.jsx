@@ -1,7 +1,16 @@
 import React from 'react'
-import About from '../About/About'
 
 function Home() {
+
+    const handleDownload = ()=>{
+        const link = document.createElement('a')
+        link.href = '/Yash-Singh-resume.pdf'
+        link.download = 'Yash-Singh-resume.pdf'
+        document.body.appendChild(link)
+        link.click()
+        document.body.removeChild(link)
+    }
+
   return (
     <>
         <section className='m-1 md:m-10'>
@@ -92,7 +101,9 @@ function Home() {
                 <img src="y-pic1.png" alt="myImage" className='md:w-3/6 w-full rounded-tr-full rounded-b-full border-8 border-white'/>
                 <div className='flex flex-col'>
                     <p className='p-5 md:text-xl text-base font-thin'>Pursuing B.tech Degree in Computer Science| Delving into different technologies| React.js Node.js Express.js Mongo| Languages like C, C++, and Java| Open-Source Contributor| Full-Stack Developer</p>
-                    <button className='w-60 md:ml-5 md:m-0 m-auto flex items-center justify-center bg-white hover:bg-gray-300 rounded-xl transition-all duration-300 text-black p-1'>
+                    <button 
+                        onClick={handleDownload}
+                        className='w-60 md:ml-5 md:m-0 m-auto flex items-center justify-center bg-white hover:bg-gray-300 rounded-xl transition-all duration-300 text-black p-1'>
                         <img src="docs.svg" alt="docsLogo" width={40} height={40} />
                         Download Resume
                     </button>
