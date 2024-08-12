@@ -88,9 +88,43 @@ function Home() {
                 </a>
                 .
             </p>
-            <div className='w-full h-80 border-2 my-10'>
-                <img src="pexel1.jpg" alt="" className='object-cover w-full h-full'/>
+            <div className='my-14 flex md:flex-row flex-col'>
+                <img src="y-pic1.png" alt="myImage" className='md:w-3/6 w-full rounded-tr-full rounded-b-full border-8 border-white'/>
+                <div className='flex flex-col'>
+                    <p className='p-5 md:text-xl text-base font-thin'>Pursuing B.tech Degree in Computer Science| Delving into different technologies| React.js Node.js Express.js Mongo| Languages like C, C++, and Java| Open-Source Contributor| Full-Stack Developer</p>
+                    <button className='w-60 md:ml-5 md:m-0 m-auto flex items-center justify-center bg-white hover:bg-gray-300 rounded-xl transition-all duration-300 text-black p-1'>
+                        <img src="docs.svg" alt="docsLogo" width={40} height={40} />
+                        Download Resume
+                    </button>
+                    <p className='p-5 md:text-base text-sm'>Want to know more? Dive on to <a href="about" className='underline'><i>about&#8599;</i></a> page.</p>
+                </div>
             </div>
+            <div className='grid md:grid-cols-3 grid-cols-2 my-14 gap-5'>
+                <div className='w-full h-full flex flex-col items-center rounded-2xl bg-slate-50 text-black hover:bg-slate-800 hover:text-white transition-all duration-500'>
+                    <p className='text-xl p-3'>UI/UX</p>
+                    <p className='text-sm p-4 text-center'>I have a good experience with UI/UX and figma tool.</p>
+                </div>
+                <div className='w-full h-full flex flex-col items-center rounded-2xl bg-slate-50 text-black hover:bg-slate-800 hover:text-white transition-all duration-500'>
+                    <p className='text-xl p-3'>DSA</p>
+                    <p className='text-sm p-4 text-center'>I have a good knowledge in Data structures and algorithms.</p>
+                </div>
+                <div className='w-full h-full flex flex-col items-center rounded-2xl bg-slate-50 text-black hover:bg-slate-800 hover:text-white transition-all duration-500'>
+                    <p className='text-xl p-3'>Backend</p>
+                    <p className='text-sm p-4 text-center'>I excel in Node.js, Express.js for backend development.</p>
+                </div>
+                <div className='w-full h-full flex flex-col items-center rounded-2xl bg-slate-50 text-black hover:bg-slate-800 hover:text-white transition-all duration-500'>
+                    <p className='text-xl p-3'>Frontend</p> 
+                    <p className='text-sm p-4 text-center'>I possess proficiency in frontend frameworks such as React.js, and Bootstrap.</p>
+                </div>
+                <div className='w-full h-full flex flex-col items-center rounded-2xl bg-slate-50 text-black hover:bg-slate-800 hover:text-white transition-all duration-500'>
+                    <p className='text-xl p-3'>C++/Java</p>
+                    <p className='text-sm p-4 text-center'>I am skilled in programming languages like C, C++, and Java. </p>
+                </div>
+                <div className='w-full h-full flex flex-col items-center rounded-2xl bg-slate-50 text-black hover:bg-slate-800 hover:text-white transition-all duration-500'>
+                    <p className='text-xl p-3'>Databases</p>
+                    <p className='text-sm p-4 text-center'>I have a great understanding with databases like MongoDB and MySQL.</p>
+                </div>
+            </div>  
         </section>
     </>
   )

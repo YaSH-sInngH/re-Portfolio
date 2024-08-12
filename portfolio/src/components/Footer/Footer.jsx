@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <div className="my-5 md:m-8 m-3 font-mono md:text-sm text-xs flex md:flex-row flex-col">
+      <div className="my-5 md:m-8 m-3 font-mono md:text-base text-xs flex md:flex-row flex-col">
         <p className='flex flex-row items-center justify-center'>
           Built with:
             <a href="https://react.dev/"
