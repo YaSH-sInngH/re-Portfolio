@@ -98,7 +98,7 @@ function Home() {
                 .
             </p>
             <div className='my-14 flex md:flex-row flex-col'>
-                <img src="y-pic1.png" alt="myImage" className='md:w-3/6 w-full rounded-tr-full rounded-b-full border-8 border-white'/>
+                <img src="y-pic1.png" alt="myImage" className="md:w-3/6 w-full h-auto rounded-tr-full rounded-b-full border-8 border-white" />
                 <div className='flex flex-col'>
                     <p className='p-5 md:text-xl text-base font-thin'>Pursuing B.tech Degree in Computer Science| Delving into different technologies| React.js Node.js Express.js Mongo| Languages like C, C++, and Java| Open-Source Contributor| Full-Stack Developer</p>
                     <button 
