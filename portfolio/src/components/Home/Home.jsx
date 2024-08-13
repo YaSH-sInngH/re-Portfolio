@@ -1,5 +1,5 @@
 import React from 'react'
-
+import About from './About';
 function Home() {
 
     const handleDownload = ()=>{
@@ -107,7 +107,7 @@ function Home() {
                         <img src="docs.svg" alt="docsLogo" width={40} height={40} />
                         Download Resume
                     </button>
-                    <p className='p-5 md:text-base text-sm'>Want to know more? Dive on to <a href="about" className='underline'><i>about&#8599;</i></a> page.</p>
+                    <p className='p-5 md:text-base text-sm'>Want to know more? Dive on to <a href="/about" className='underline'><i>about&#8599;</i></a> page.</p>
                 </div>
             </div>
             <div className='grid md:grid-cols-3 grid-cols-2 my-14 gap-5'>
