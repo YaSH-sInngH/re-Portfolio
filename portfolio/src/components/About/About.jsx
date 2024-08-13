@@ -1,5 +1,6 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
+import Project from './Project'
 function About() {
   return (
     <>
@@ -242,7 +243,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            <p className='my-1 p-2 font-semibold text-sm md:text-lg'>Check out my <a href='/projects' className='font-bold md:no-underline underline ne'><i>projects&#8599;</i></a>, where i have put all my learnings into real world web applications and projects. </p>
+            <p className='my-1 p-2 font-semibold text-sm md:text-lg'>Check out my <Link to='/projects' className='font-bold md:no-underline underline ne'><i>projects&#8599;</i></Link>, where i have put all my learnings into real world web applications and projects. </p>
             
         </div>
     </>
