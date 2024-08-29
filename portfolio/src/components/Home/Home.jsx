@@ -4,8 +4,8 @@ function Home() {
 
     const handleDownload = ()=>{
         const link = document.createElement('a')
-        link.href = '/Yash-Singh-resume.pdf'
-        link.download = 'Yash-Singh-resume.pdf'
+        link.href = '/Yash-Singh-Resume-updated.pdf'
+        link.download = 'Yash-Singh-Resume.pdf'
         document.body.appendChild(link)
         link.click()
         document.body.removeChild(link)
