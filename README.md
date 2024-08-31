@@ -1,4 +1,12 @@
-# React + Vite
+## Personal Portfolio
+
+Tech Stack: React.js, Javascript, TailwindCSS, Vite
+
+URL: https://yash-singh.onrender.com/
+*{Visit My Portfolio using this link }*
+
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
