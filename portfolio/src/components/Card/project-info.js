@@ -1,5 +1,11 @@
 const projects = [
     {
+        img:'./Designer-1.png',
+        projectName:'Anime-web-app',
+        projectLink:'https://anime-web-app-rqpp.onrender.com/',
+        codeLink:'https://github.com/YaSH-sInngH/anime-web-app'
+    },
+    {
         img:'./oldportfolio1.png',
         projectName:'Old-Portfolio',
         projectLink:'https://yash-singh-portfolio.netlify.app/',
